@@ -1,5 +1,5 @@
 (function(){
-    "use script";
+    "use strict";
     document.getElementById('login-form').addEventListener('submit', function(event) {
     event.preventDefault();
     let username = document.getElementById('username').value;
