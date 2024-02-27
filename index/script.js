@@ -1,4 +1,4 @@
-document.getElementById('login-form').addEventListener('submit', function(event) {
+(function(){document.getElementById('login-form').addEventListener('submit', function(event) {
     event.preventDefault();
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
@@ -8,3 +8,4 @@ document.getElementById('login-form').addEventListener('submit', function(event)
         document.getElementById('error-message').textContent = 'Invalid username or password';
     }
 });
+}());
